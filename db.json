@@ -1,104 +1,107 @@
 {
-    "voters": [
-      {
-        "id": "dd20",
-        "name": "Joseph Ngugi",
-        "voterId": "0001"
-      },
-      {
-        "id": "59ba",
-        "name": "Ndege",
-        "voterId": "0002"
-      },
-      {
-        "id": "ac8d",
-        "name": "Neema",
-        "voterId": "0003"
-      },
-      {
-        "id": "bcb9",
-        "name": "Cliff",
-        "voterId": "0777"
-      }
-    ],
-    "presidents": [
-      {
-        "id": "1",
-        "name": "John Doe",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "2",
-        "name": "Jane Smith",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "3",
-        "name": "Michael Green",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "4",
-        "name": "Emily White",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      }
-    ],
-    "governors": [
-      {
-        "id": "5",
-        "name": "Alice Johnson",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "6",
-        "name": "Bob Brown",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "7",
-        "name": "Chris Black",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "8",
-        "name": "Sophia Gray",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      }
-    ],
-    "womenReps": [
-      {
-        "id": "9",
-        "name": "Laura Blue",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "10",
-        "name": "Emma Red",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "11",
-        "name": "Olivia Yellow",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      },
-      {
-        "id": "12",
-        "name": "Ava Green",
-        "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
-        "votes": 1
-      }
-    ]
-  }
-  
-  
+  "voters": [
+    {
+      "id": "dd20",
+      "name": "Joseph Ngugi",
+      "voterId": "0001"
+    },
+    {
+      "id": "59ba",
+      "name": "Ndege",
+      "voterId": "0002"
+    },
+    {
+      "id": "ac8d",
+      "name": "Neema",
+      "voterId": "0003"
+    },
+    {
+      "id": "bcb9",
+      "name": "Cliff",
+      "voterId": "0777"
+    },
+    {
+      "id": "a637",
+      "name": "Cliff linus thomi",
+      "voterId": "4846783"
+    }
+  ],
+  "presidents": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 2
+    },
+    {
+      "id": "3",
+      "name": "Michael Green",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "4",
+      "name": "Emily White",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    }
+  ],
+  "governors": [
+    {
+      "id": "5",
+      "name": "Alice Johnson",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "6",
+      "name": "Bob Brown",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 2
+    },
+    {
+      "id": "7",
+      "name": "Chris Black",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "8",
+      "name": "Sophia Gray",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    }
+  ],
+  "womenReps": [
+    {
+      "id": "9",
+      "name": "Laura Blue",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 2
+    },
+    {
+      "id": "10",
+      "name": "Emma Red",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "11",
+      "name": "Olivia Yellow",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    },
+    {
+      "id": "12",
+      "name": "Ava Green",
+      "image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740",
+      "votes": 1
+    }
+  ]
+}
