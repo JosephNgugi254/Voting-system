@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import Chart from 'chart.js/auto';
+ import Chart from 'chart.js/auto';
 
 function Results({ presidents, governors, womenReps }) {
   const presidentChartRef = useRef(null);
