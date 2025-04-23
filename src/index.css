@@ -1,0 +1,258 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #app-container {
+    min-height: 100vh;
+  }
+  
+  #navbar {
+    background-color: #4790ad;
+    padding: 1rem;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  #home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #4790ad;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #vote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #d8dddf;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 4px 6px rgba(63, 156, 193, 0.1);
+  }
+  
+  #voting-form {
+    background-color: whitesmoke;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    color: #4790ad;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.3rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4790ad;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #367a91;
+  }
+  
+  #candidates {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 1rem;
+  }
+  
+  .position-container {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .position-title {
+    font-size: 1.3rem;
+    color: #4790ad;
+    margin: 0 0 0.5rem;
+  }
+  
+  .candidate-box {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .candidate-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    object-fit: cover;
+  }
+  
+  .candidate-name {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  #results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #d8dddf;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 4px 6px rgba(63, 156, 193, 0.1);
+  }
+  
+  .results-title {
+    font-size: 1.5rem;
+    color: #4790ad;
+    margin-bottom: 1rem;
+  }
+  
+  #charts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .chart-box {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-title {
+    font-size: 1.3rem;
+    color: #4790ad;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    #candidates {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .position-container {
+      width: 32%;
+    }
+  
+    #charts {
+      flex-direction: row;
+    }
+  
+    .chart-box {
+      width: 32%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  
+    #voting-form {
+      padding: 1rem;
+    }
+  
+    #candidates {
+      max-width: 100%;
+    }
+  
+    .position-container {
+      width: 100%;
+    }
+  
+    #charts {
+      max-width: 100%;
+    }
+  
+    .chart-box {
+      width: 100%;
+    }
+  }
